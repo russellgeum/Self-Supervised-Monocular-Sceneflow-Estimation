@@ -27,6 +27,8 @@ find (data_folder)/ -name '*.png' | parallel 'convert {.}.png {.}.jpg && rm {}'
 ## Training
 ```
 This repository only support eigen split training
+
+bash train1.sh
 ```
 ## Inference
 ```

@@ -1,0 +1,8 @@
+# ninja log v5
+0	22815	1632375659338240741	/home/pwc-net/models/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda_kernel.o	662258d3cd75cffa
+1	30974	1636572017990274179	/home/mono-sceneflow/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda_kernel.o	abbe7eada9bb2f8e
+0	21282	1636617907629307817	/home/mono-sceneflow/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda.o	7085a8f0227d15d3
+0	27577	1636638785223757046	/home/mono-scene/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda.o	b3b515b8daf6f14c
+0	34259	1636638791903669493	/home/mono-scene/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda_kernel.o	5f6d7853b4d866a2
+2	23005	1644073003024843300	/NAS/mono-scene/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda.o	b1a1331a3b03c3eb
+2	30869	1644073010887368400	/NAS/mono-scene/model_layer/correlation_package/build/temp.linux-x86_64-3.6/correlation_cuda_kernel.o	153b2767fe153d76

@@ -1,0 +1,8 @@
+# ninja log v5
+0	20384	1632375682117882647	/home/pwc-net/models/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda_kernel.o	b30839b63461fb9c
+1	24198	1636572045109915828	/home/mono-sceneflow/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda_kernel.o	63a9466550aa2234
+0	21285	1636617982436331657	/home/mono-sceneflow/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda.o	5092384e1e1aadf0
+0	27138	1636638823775251778	/home/mono-scene/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda.o	1abfa8a8cc34f1d
+1	30838	1636638827471203340	/home/mono-scene/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda_kernel.o	9f907c71fc0b19e4
+2	19274	1644073034771273800	/NAS/mono-scene/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda.o	25301d5abc685ef9
+3	22666	1644073038168491000	/NAS/mono-scene/model_layer/forwardwarp_package/build/temp.linux-x86_64-3.6/forward_warp_cuda_kernel.o	7a5bfb07664d2506
