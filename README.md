@@ -1,9 +1,10 @@
 # selfmono-sceneflow (NOT Official)
 [Self-Supervised Monocular Scene Flow Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hur_Self-Supervised_Monocular_Scene_Flow_Estimation_CVPR_2020_paper.pdf)  
 [Official Github](https://github.com/visinf/self-mono-sf)  
-Reproducing code of Self-Supervised Monocular Scene Flow Estimation (CVPR 2020)  
-Reorganizing the training pipeline again.  
-The backbone and module are from the official code.  
+Reproducing of Self-Supervised Monocular Scene Flow Estimation (CVPR 2020)  
+Reorganizing the training pipeline again (For me)    
+The backbone and module are from the official code    
+I annotated and checked the function to understrand this pipeline  
 ## Requirements
 ```
 Installation problem in some environments.
@@ -32,3 +33,29 @@ This repository only support eigen split training
 note-evaluation.ipynb
 ```
 ## Metric
+Metric only reported for eigen split  
+```
+Depth Estimation
+
+Paper report
+0.125   0.978   4.877   0.208   0.851   0.950   0.978
+
+This repo + official eigen weight
+0.125   0.975   4.878   0.209   0.850   0.950   0.978
+
+This repo + retrain eigen weight
+0.131   1.000   4.923   0.214   0.842   0.945   0.978
+
+
+
+Sceneflow Estimation
+
+Paper report
+None
+
+This repo + official eigen weight
+d1 0.230   d2 0.277   f1 0.188   sf 0.377
+
+This repo + retrain eigen weight
+d1 0.220   d2 0.268   f1 0.232   sf 0.388 
+```
