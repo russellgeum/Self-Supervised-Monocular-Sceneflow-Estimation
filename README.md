@@ -15,16 +15,20 @@ cxx_args = ['-std=c++11'] -> cxx_args = ['-std=c++14']
 bash install_modules.sh
 ```
 ## Dataset
-[KITTI raw data](http://www.cvlibs.net/datasets/kitti/raw_data.php)
-[KITTI Scene Flow 2015 data](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow)
-Dataset follows convention of [monodepth](https://github.com/mrharicot/monodepth)
+[KITTI raw data](http://www.cvlibs.net/datasets/kitti/raw_data.php)  
+[KITTI Scene Flow 2015 data](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow)  
+Dataset follows convention of [monodepth](https://github.com/mrharicot/monodepth)  
 ```
 Convert KITTI RAW png to jpeg
 
 find (data_folder)/ -name '*.png' | parallel 'convert {.}.png {.}.jpg && rm {}'
 ```
 ## Training
-This repository only eigen split training
+```
+This repository only support eigen split training
+```
 ## Inference
+```
 note-evaluation.ipynb
+```
 ## Metric
