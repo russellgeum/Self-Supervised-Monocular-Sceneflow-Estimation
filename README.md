@@ -1,4 +1,4 @@
-# selfmono-sceneflow (NOT Official)
+# selfmono-sceneflow (Not Official)
 [Self-Supervised Monocular Scene Flow Estimation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hur_Self-Supervised_Monocular_Scene_Flow_Estimation_CVPR_2020_paper.pdf)  
 [Official Github](https://github.com/visinf/self-mono-sf)  
 Reproducing of Self-Supervised Monocular Scene Flow Estimation (CVPR 2020)  
